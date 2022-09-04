@@ -22,6 +22,8 @@ import {
 import genres from '../../common/genres';
 import artists from '../../common/artists';
 import TextField from '@material-ui/core/TextField';
+import Details from '../../screens/details/Details';
+import ReactDOM from 'react-dom';
 
 const styles = (theme) => ({
   root: {
@@ -76,6 +78,14 @@ class Home extends Component {
     this.setState({ artists: event.target.value });
   };
 
+  clickMovieGridItemHandler = (movieId) => {
+    console.log(movieId);
+    ReactDOM.render(
+      <Details movieId={movieId} />,
+      document.getElementById('root')
+    );
+  };
+
   render() {
     const { classes } = this.props;
     return (
@@ -96,6 +106,7 @@ class Home extends Component {
             </GridListTile>
           ))}
         </GridList>
+
         <div className="flex-container">
           <div className="left">
             <GridList
