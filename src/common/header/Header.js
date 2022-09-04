@@ -11,8 +11,8 @@ import InputLabel from '@material-ui/core/InputLabel';
 import Input from '@material-ui/core/Input';
 import PropTypes from 'prop-types';
 import FormHelperText from '@material-ui/core/FormHelperText';
-// import BookShow from '../../screens/bookshow/BookShow';
-// import ReactDOM from 'react-dom';
+import BookShow from '../../screens/bookshow/BookShow';
+import ReactDOM from 'react-dom';
 const customStyles = {
   content: {
     top: '50%',
@@ -144,9 +144,9 @@ class Header extends Component {
     this.setState({ contactnumber: e.target.value });
   };
 
-  // bookshowHandler = () => {
-  //   ReactDOM.render(<BookShow />, document.getElementById('root'));
-  // };
+  bookshowHandler = () => {
+    ReactDOM.render(<BookShow />, document.getElementById('root'));
+  };
 
   render() {
     return (
@@ -162,7 +162,7 @@ class Header extends Component {
               Login
             </Button>
           </div>
-          {/* {this.props.showBookshow === 'true' ? (
+          {this.props.showBookshow === 'true' ? (
             <div className="bookshow-button">
               <Button
                 variant="contained"
@@ -174,7 +174,7 @@ class Header extends Component {
             </div>
           ) : (
             ''
-          )} */}
+          )}
         </header>
         <ReactModal
           style={customStyles}

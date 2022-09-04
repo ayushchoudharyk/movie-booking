@@ -1,24 +1,24 @@
 let location = [
   {
     id: 1,
-    location: "Bengaluru"
+    location: 'Bengaluru',
   },
   {
     id: 2,
-    location: "Mumbai"
+    location: 'Mumbai',
   },
   {
     id: 3,
-    location: "Delhi"
+    location: 'Delhi',
   },
   {
     id: 4,
-    location: "Kolkatta"
+    location: 'Kolkatta',
   },
   {
     id: 5,
-    location: "Chennai"
-  }
-]
+    location: 'Chennai',
+  },
+];
 
 export default location;

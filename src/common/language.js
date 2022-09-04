@@ -1,24 +1,24 @@
 let language = [
   {
     id: 1,
-    language: "Hindi"
+    language: 'Hindi',
   },
   {
     id: 2,
-    language: "English"
+    language: 'English',
   },
   {
     id: 3,
-    language: "Kannada"
+    language: 'Kannada',
   },
   {
     id: 4,
-    language: "Tamil"
+    language: 'Tamil',
   },
   {
     id: 5,
-    language: "Telugu"
-  }
-]
+    language: 'Telugu',
+  },
+];
 
 export default language;
