@@ -17,7 +17,8 @@
     "react-modal": "^3.15.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
-    "react-youtube": "^9.0.3"
+    "react-youtube": "^9.0.3",
+    "server": "^1.0.37"
   },
   "scripts": {
     "start": "react-scripts start",
