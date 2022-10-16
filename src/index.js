@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import * as serviceWorker from './serviceWorker';
-import Home from './screens/home/Home';
-ReactDOM.render(<Home />, document.getElementById('root'));
+import './common/common.css';
+import 'typeface-roboto';
+import registerServiceWorker from './registerServiceWorker';
+import Controller from './screens/Controller';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<Controller />, document.getElementById('root'));
+registerServiceWorker();

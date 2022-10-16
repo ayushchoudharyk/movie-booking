@@ -1,16 +1,11 @@
-.header-container {
-    background-color: black;
-    height: 40px;
+.app-header {
+    background-color: #222;
+    height: 36px;
     padding: 8px 32px 8px 16px;
 }
 
 .login-button {
     float: right;
-}
-
-.bookshow-button {
-    float: right;
-    margin-right: 8px;
 }
 
 .app-logo {
@@ -19,10 +14,13 @@
     background: #ff7f7f;
 }
 
+.bookshow-button {
+    float: right;
+    margin-right: 8px;
+}
+
 @keyframes app-logo-spin {
-    from {
-        transform: scaleX(-1);
-    }
+    from { transform: scaleX(-1); }
 }
 
 .tabs {

@@ -46,15 +46,12 @@
     .flex-container {
         flex-direction: column;
     }
-
     .left {
         width: 100%;
     }
-
     .right {
         width: 90%;
     }
-
     .released-movie-grid-item {
         margin: 8px;
     }

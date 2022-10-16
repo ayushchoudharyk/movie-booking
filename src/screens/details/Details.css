@@ -74,19 +74,15 @@ iframe {
     width: 100%;
     text-align: center;
   }
-
   .middleDetails {
     width: 90%;
   }
-
   .rightDetails {
     width: 100%;
   }
-
   .flex-containerDetails {
     flex-direction: column;
   }
-
   .paddingRight {
     margin-right: 32px;
   }
